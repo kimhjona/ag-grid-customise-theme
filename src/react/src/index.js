@@ -5,6 +5,7 @@ import App from './App';
 
 function initialise() {
   if (cssHasLoaded('ag-theme-custom-react')) {
+    document.body.style.setProperty("--custom-row-height", '22px');
     ReactDOM.render(<App />, document.getElementById('root'));
   } else {
     setTimeout(initialise, 100);

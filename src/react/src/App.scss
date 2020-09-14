@@ -10,7 +10,8 @@
     checkbox-checked-color: #2661ad,
     range-selection-border-color: #ff00b1,
     range-selection-background-color: #03305633,
-    header-height: 80px
+    header-height: 80px,
+    row-height: var(--custom-row-height)
   ));
 
   .ag-menu-option-active {
